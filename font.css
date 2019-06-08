@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'DIN Condensed';
+    src:url("font/D-DINCondensed.otf") format("otf"),
+        url("font/D-DINCondensed.ttf") format("ttf"),
+        url("font/D-DINCondensed.woff2") format("woff2"),
+        url("font/D-DINCondensed.woff") format("woff");
+        font-weight: normal;
+}
+@font-face {
+    font-family: 'DIN Condensed';
+    src:url("font/D-DINCondensed-Bold.otf") format("otf"),
+        url("font/D-DINCondensed-Bold.ttf") format("ttf"),
+        url("font/D-DINCondensed-Bold.woff2") format("woff2"),
+        url("font/D-DINCondensed-Bold.woff") format("woff");
+        font-weight: bold;
+}
