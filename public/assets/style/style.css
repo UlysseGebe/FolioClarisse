@@ -3,8 +3,20 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     letter-spacing: 0.13rem;
-    position: relative;
+    position: relative;	
+    /* cursor: none; */
 }
+
+/* .cursor {
+    background-image: url('../image/cursor.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+
+} */
 
 span.nb {
     font-family: 'Cabin', sans-serif;
@@ -402,7 +414,7 @@ article .details .column div {
 }
 
 article .images {
-    margin-top: 5rem;
+    margin: 5rem 0;
     width: 90%;
 }
 

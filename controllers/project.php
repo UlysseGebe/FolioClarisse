@@ -29,6 +29,7 @@ else if ($number == '2') {
     $year = ' 2019';
     $role = 'As the user experience designer, I created and imagined the user purchase flow experience, from the basket page until the last purchase confirmation one.';
     $next = ['Lines Photography', '3'];
+    $images = ['womannBlue'];
 }
 else if ($number == '3') {
     $title = 'Lines Photography';
@@ -37,7 +38,7 @@ else if ($number == '3') {
     $context = 'I’ve always loved capturing ordinary spontaneity while simultaneously playing with lines and colors.';
     $year = 'Since 2012';
     $role = 'Photographer';
-    $images = ['',''];
+    $images = ['photo0','photo1','photo2','photo3','photo4','photo5','photo6','photo7','photo8','photo9','photo10','photo11','photo12','photo13','photo14','photo15','photo16','photo17','photo18','photo19','photo20','photo21','photo22','photo23','photo24','photo25','photo26','photo27','photo28','photo29','photo30','photo31','photo32','photo33','photo34'];
     $next = ['Spatial Journey', '4'];
 }
 else if ($number == '4') {
@@ -53,7 +54,7 @@ else if ($number == '4') {
     Clarisse Croset&nbsp;&nbsp;&nbsp;&nbsp;[ UX designer ]</br>
     Théo Jullien&nbsp;&nbsp;&nbsp;&nbsp;[ UI designer ]</br>';
     $role = 'As the user experience designer, I worked close with the developer to facilitate the user experince and navigation';
-    $images = ['',''];
+    $images = ['homee','final_macbookpro15_front','rocket_macbookpro15_front','ships','capinship'];
     $next = ['Playful Bubbles', '5'];
     $launch = ['website','https://matthiasgdr.fr/humanity-and-planets/?fbclid=IwAR3S2nFGO3XWd5dweH50Dn2bBYvFueWM4NyAa8zJBJXw97Ezg6Vad0GuBt0'];
 }
@@ -64,7 +65,7 @@ else if ($number == '5') {
     $context = 'I invented this desktop game for a development assignement in which we had to conceive an original little game using Javascript.';
     $year = '2018';
     $role = 'I designed and developed this project in less than a week using Canvas in Javascript. </br>Many thanks to Florian Brunet who helped me solve some issues.';
-    $images = ['',''];
+    $images = ['gameMockup'];
     $next = ['Immersive Experience', '6'];
     $launch = ['game','#'];
 }
@@ -79,7 +80,7 @@ else if ($number == '6') {
     Corentin Boulanouar&nbsp;&nbsp;&nbsp;&nbsp;[ Developer ]</br>
     Clarisse Croset&nbsp;&nbsp;&nbsp;&nbsp;[ UX designer ]';
     $role = 'As the user experience designer, I worked with the user interface designer to imagine a way to captivate and entertain the user. I also created some content.';
-    $images = ['',''];
+    $images = ['freestatee_macbookpro15_front'];
     $next = ['Modern TakeOver', '7'];
     $launch = ['website','http://app.alphonsebouy.fr/kickstarter/'];
 }
@@ -95,7 +96,7 @@ else if ($number == '7') {
     Louis Lemoine&nbsp;&nbsp;&nbsp;&nbsp;[ Developer ]</br>
     Clarisse Croset[ Project manager ]';
     $role = 'As the project manager, I supervised the schedule and the methodology of the project while helping and motivating my colleagues.';
-    $images = ['',''];
+    $images = ['doucedepo_macbookpro15_front'];
     $next = ['Visual Design', '1'];
 }
 else {
