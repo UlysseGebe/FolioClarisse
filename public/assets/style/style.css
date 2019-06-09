@@ -12,7 +12,7 @@ span.nb {
 
 header {
     width: 100%;
-    height: 6rem;
+    height: 9rem;
     font-size: 1.1em;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ header nav {
 
 header nav h1 {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-left: 4em;
     position: relative;
     display: flex;
@@ -61,6 +61,11 @@ header nav ul {
 
 header nav ul li {
     margin-left: 2em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 p {
@@ -247,45 +252,109 @@ article .fullPage {
     align-items: center;
 }
 
-article .fullPage div {
+article .fullPage>div {
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
 
 article .fullPage .text{
-    height: auto;
+    height: 100vh;
     color: #E1BDBD;
     font-size: 15rem;
     font-family: 'DIN Condensed';
     text-transform: uppercase;
     letter-spacing: -0.015em;
     position: relative;
+    display: flex;
+    align-items: center;
+
 }
 
 article .fullPage .text.start{
     left: -2rem;
+    z-index: 3;
 }
 
 article .fullPage .text.end{
-    display: flex;
     justify-content: flex-end;
     right: -2rem;
+    z-index: 1;
 }
 
 article .fullPage .poster{
-    width: 100%;
-    height: 90vh;
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    margin-top: -3rem;
+    min-height: 35rem;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    z-index: 2;
+}
+
+article .fullPage .scroll{
+    display: flex;
+    justify-content: center;
+    margin-top: -6rem;
 }
 
 article .fullPage .pagination{
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
     color: #E1BDBD;
+    margin-right: 5rem;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+}
+
+article .fullPage .pagination>div{
+    width: 5rem;
+}
+
+article .fullPage .pagination>div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.44);
+}
+
+article .launch {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    position: relative;
+}
+
+article .launch::before {
+    content: '';
+    position: absolute;
+    background-color: #995B5B;
+    width: 100%;
+    height: 0.1rem;
+    bottom: -1rem;
+    left: 0;
+}
+
+article .launch::after {
+    content: '';
+    position: absolute;
+    border-top: 0.1rem solid #995B5B;
+    border-right: 0.1rem solid #995B5B;
+    transform: rotate(45deg);
+    width: 0.5rem;
+    height: 0.5rem;
+    bottom: -1.2rem;
+    right: 0;
+}
+
+article .launch a {
+    text-decoration: none;
+    color: #4D4D4D;
 }
 
 article .details {
@@ -307,7 +376,7 @@ article .details::before {
     position: absolute;
     top: -2.25rem;
     left: 4rem;
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 3.5rem;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.42);
@@ -332,9 +401,100 @@ article .details .column div {
     height: 15rem;
 }
 
+article .images {
+    margin-top: 5rem;
+    width: 90%;
+}
+
+article .images img {
+    width: auto;
+    max-width: 100%;
+}
+
+article .more {
+    width: 90%;
+    margin-bottom: 5rem;
+}
+
+article .more .next {
+    font-family: 'DIN Condensed';
+    display: flex;
+    justify-content: space-between;
+}
+
+article .more .next span {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    font-size: 4rem;
+}
+
+article .more .next span a {
+    color: rgba(153, 91, 91, 0.75);
+    text-decoration: none;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+article .more .back a {
+    color: rgba(77, 77, 77, 0.75);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+article .arrow {
+    position: relative;
+    background-color: #995B5B;
+    height: 0.2rem;
+    width: 99%;
+    margin: 50px 0;
+}
+
+.arrow:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-left-color: #995B5B;
+    border-width: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+
 footer {
+    font-family: 'Ubuntu', sans-serif;
     bottom: -2rem;
     text-align: center;
     width: 100%;
     padding-bottom: 2rem;
+    font-weight: 300;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .links img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1.25rem;
+}
+
+footer h5 {
+    color: #6F6F6F;
+    letter-spacing: 0.22em;
+}
+
+footer h6 {
+    letter-spacing: 0.165em;
+    color: #C6C6C6;
 }
