@@ -12,10 +12,11 @@ if ($number == '1') {
     $image = 'modelHyphen';
     $context = 'We created a user flow experience for a Kickstarter project that did not yet have a website of its own : Hyphen, a modern earphone brand.</br>We designed mock-ups of several pages, including the home and basket one.';
     $year = 'Early 2019';
-    $team = 'Nemo Fazakerley&nbsp;&nbsp;&nbsp;&nbsp;[ Project manager ]</br>
-    Coline Animbo&nbsp;&nbsp;&nbsp;&nbsp;[ UI Designer ]</br>
-    Victor de Chalambert&nbsp;&nbsp;&nbsp;&nbsp;[ Marketing expert ]</br>
-    Clarisse Croset&nbsp;&nbsp;&nbsp;&nbsp;[ UX designer ]';
+    $team = '
+    Nemo Fazakerley&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ Project manager ]</br>
+    Coline Animbo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ UI Designer ]</br>
+    Victor de Chalambert [ Marketing expert ]</br>
+    Clarisse Croset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ UX designer ]';
     $role = 'As the user experience designer, I created the user purchase flow experience, from the basket page until the last purchase confirmation one.';
     $images = ['logoHyphen','hyphen_macbookpro13'];
     $next = ['Creative Illustration', '2'];
@@ -45,7 +46,8 @@ else if ($number == '4') {
     $image = 'space';
     $context = 'The request was to imagine, create and develop an immersive and interactive experience around a particular theme : The human and the planet.</br>We decided to illustrate an eventual journey to the Moon and highlight the inequalities that it would engenders.';
     $year = '2018';
-    $team = 'Gauthier Burias&nbsp;&nbsp;&nbsp;&nbsp;[ Project manager ]</br>
+    $team = '
+    Gauthier Burias&nbsp;&nbsp;&nbsp;&nbsp;[ Project manager ]</br>
     Matthias Gander&nbsp;&nbsp;&nbsp;&nbsp;[ Lead developer ]</br>
     Ulysse Geberowicz&nbsp;&nbsp;&nbsp;&nbsp;[ Content creator ]</br>
     Clarisse Croset&nbsp;&nbsp;&nbsp;&nbsp;[ UX designer ]</br>
