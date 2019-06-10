@@ -49,7 +49,7 @@
         <div class="cover" style="background-image: url('assets/image/projet2/womann.png')"></div>
     </div>
     <div class="projects">
-        <span class="liste nb" style="color: #FEE10F">03</span>
+        <span class="liste nb">03</span>
         <div class="type">
             <h2>lines</h2>
             <h3>photography</h3>
