@@ -41,9 +41,9 @@
     <div class="projects">
         <span class="liste nb">02</span>
         <div class="type">
-            <h2>immersive</h2>
-            <h3>experience</h3>
-            <p>Creating a digital immersive experience around a Kickstarter product</p>
+            <h2>creative</h2>
+            <h3>illustration</h3>
+            <p>When the body can’t, the mind wonders . . .</p>
             <a href="project-02">Discover</a>
         </div>
         <div class="cover" style="background-image: url('assets/image/projet2/womann.png')"></div>
@@ -81,9 +81,9 @@
     <div class="projects">
         <span class="liste nb">06</span>
         <div class="type">
-            <h2>creative</h2>
-            <h3>illustration</h3>
-            <p>When the body can’t, the mind wonders . . .</p>
+            <h2>immersive</h2>
+            <h3>experience</h3>
+            <p>A digital immersive experience around a Kickstarter product</p>
             <a href="project-06">Discover</a>
         </div>
         <div class="cover" style="background-image: url('assets/image/projet6/freestateHome.png')"></div>

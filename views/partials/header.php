@@ -19,8 +19,8 @@
         <nav>
             <h1>Clarisse<br>Croset</h1>
             <ul>
-                <li><a href="/">Projects</a></li>
-                <li><a href="about">About me</a></li>
+                <li><a href="home">Projects</a></li>
+                <li><a href="home">About me</a></li>
             </ul>
         </nav>
     </header>
