@@ -319,16 +319,18 @@ article .fullPage .scroll{
 
 article .fullPage .pagination{
     display: flex;
+    width: 95%;
     align-items: flex-end;
     flex-direction: column;
     color: #E1BDBD;
     margin-right: 5rem;
-    margin-top: -1rem;
+    margin-top: -4rem;
     margin-bottom: 5rem;
 }
 
 article .fullPage .pagination>div{
     width: 5rem;
+    padding: 1rem 0;
 }
 
 article .fullPage .pagination>div:last-child {
